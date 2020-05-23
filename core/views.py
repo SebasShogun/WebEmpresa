@@ -11,24 +11,24 @@ Blog blog/
 Sample sample/
 """
 
-def home(requeste):
-    return HttpResponse("Inicio")
+def home(request):
+    return render(request, "core/home.html")
 
-def about(requeste):
-    return HttpResponse("Historia")
+def about(request):
+    return render(request, "core/about.html")
 
-def services(requeste):
-    return HttpResponse("Servicios")
+def services(request):
+    return render(request, "core/services.html")
 
-def store(requeste):
-    return HttpResponse("Visítanos")
+def store(request):
+    return render(request, "core/store.html")
 
-def contact(requeste):
-    return HttpResponse("Contacto")
+def contact(request):
+    return render(request, "core/contact.html")
 
-def blog(requeste):
-    return HttpResponse("Blog")
+def blog(request):
+    return render(request, "core/blog.html")
 
-def sample(requeste):
-    return HttpResponse("Sample")
+def sample(request):
+    return render(request, "core/sample.html")
 
