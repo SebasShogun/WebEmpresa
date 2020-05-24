@@ -139,8 +139,13 @@ CKEDITOR_CONFIGS = {
             ['Bold', 'Italic', 'Underline'],
             ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
             ['Link', 'Unlink'],
-            ['RemoveFormat', 'Source']
 
         ]
     }
 }
+
+# Configuración email
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '55239384088e9a'
+EMAIL_HOST_PASSWORD = '89856eee45f8c2'
+EMAIL_PORT = '2525'
